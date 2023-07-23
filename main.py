@@ -5,7 +5,6 @@ import asyncio
 
 async def main():
     l = await BlizzardClient.getAuctionHouse(11)
-    #print(l)
 
 
 asyncio.run(main())
